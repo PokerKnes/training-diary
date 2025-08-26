@@ -1,0 +1,11 @@
+<h1 class="fs-hg mb-12">Exercises</h1>
+<div>
+  @if (exercises$ | async; as exs) {
+    <p>{{ exs.length }}</p>
+    @if (exercises2$ | async; as exs) {
+      <p>второй вызов{{ exs.length }}</p>
+    }
+  } @else {
+    <p>грузим</p>
+  }
+</div>

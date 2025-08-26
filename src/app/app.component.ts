@@ -9,6 +9,4 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppComponent {
-  title = 'training-diary';
-}
+export class AppComponent {}
